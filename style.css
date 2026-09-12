@@ -115,7 +115,7 @@ img {
 
 /* ---------- プレースホルダー画像 ----------
    実際の写真が用意できたら、この div を <img> に差し替えてください。
-   例）<img src="images/hero.jpg" alt="サロン店内の写真"> */
+   例）<img src="hero.png" alt="サロン店内の写真"> */
 
 .placeholder-img {
   display: flex;
