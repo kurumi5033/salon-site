@@ -12,7 +12,7 @@ salon-site/
 ├── reserve.html    … 「ご予約」導線の案内ページ（学習用サンプルの説明）
 ├── style.css       … 全ページ共通のスタイル
 ├── script.js       … スマホ表示時のナビ開閉のみを行う最小限のスクリプト
-├── *.png           … サイトで使う写真・ロゴ（すべてルート直下）
+├── *.jpg / logo.png … サイトで使う写真・ロゴ（すべてルート直下、写真は軽量化のためJPEG）
 └── security-review.md … セキュリティ・堅牢性レビューの結果（ステップ4）
 ```
 
@@ -39,13 +39,14 @@ salon-site/
 | ファイル | 用途 |
 |---|---|
 | logo.png | 各ページのヘッダーロゴ（LINO） |
-| hero.png | トップページのメイン写真 |
-| staff-cut.png / staff-color.png | トップページのカード（施術シーン） |
-| staff-portrait.png | トップページのスタッフ紹介カード |
-| menu-cut.png / menu-color.png / menu-perm.png | メニューページのサムネイル |
-| exterior.png | アクセスページの外観写真 |
+| hero.jpg | トップページのメイン写真 |
+| staff-cut.jpg / staff-color.jpg | トップページのカード（施術シーン） |
+| staff-portrait.jpg | トップページのスタッフ紹介カード |
+| menu-cut.jpg / menu-color.jpg / menu-perm.jpg | メニューページのサムネイル |
+| exterior.jpg | アクセスページの外観写真 |
 
 写真を差し替える場合は、同じファイル名でサイト直下のファイルを上書きするだけで反映されます。
+表示速度のため、写真はすべてJPEG（品質82〜85%程度）に変換して軽量化しています。ロゴは透明部分を保つため、余白を切り詰めたPNGのままにしています。
 
 ## サンプルサイトとしての注意
 
