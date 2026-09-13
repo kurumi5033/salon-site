@@ -113,6 +113,11 @@ img {
   background: var(--color-navy-dark);
 }
 
+span.cta-button[aria-disabled="true"] {
+  cursor: default;
+  opacity: 0.85;
+}
+
 /* ---------- プレースホルダー画像 ----------
    実際の写真が用意できたら、この div を <img> に差し替えてください。
    例）<img src="hero.jpg" alt="サロン店内の写真"> */
